@@ -1,2 +1,2 @@
 # MyWorkspace
-Merhaba ben Fatma. Yaptığım çalışmalara bu bölüme ekleyeceğim.
+Merhaba ben Fatma. Yaptığım çalışmaları bu bölüme ekleyeceğim.
