@@ -1,0 +1,32 @@
+body {
+    text-align:center;
+    background-color: #FAF0E6;
+}
+
+a {
+    margin:10px;
+}
+
+h1 {
+    color:#B22222; 
+    font-size:40px; 
+    text-align:center; 
+}
+
+h2 {
+    color:blueviolet;
+    font-size:30px;
+}
+
+.urun {
+    color:#808000;
+}
+
+li {
+    list-style-position:inside;
+}
+
+.vizyon {
+    color:#808000;
+    text-align:left;
+}
