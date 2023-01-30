@@ -1,0 +1,289 @@
+/*Nav CSS Start*/
+.header {
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+  
+.headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    float: right;
+}
+  
+.headerli a:hover {
+    text-decoration: underline;
+}
+
+.gmail-img {
+    white-space: nowrap;
+    line-height: normal;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    background-position: -64px -29px;
+    opacity: 1;
+    color: #5f6368;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.gmail-img:hover {
+    background-color: #f2f2f2;
+}
+
+.apps {
+    white-space: nowrap;
+    line-height: normal;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    background-position: -64px -29px;
+    opacity: 1;
+    color: #5f6368;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.apps:hover {
+    background-color: #f2f2f2;
+}
+/*Nav CSS End*/
+
+/*Search Bar CSS Start*/
+.container {
+    text-align: center;
+    margin: 100px;
+}
+  
+.search-area {
+    background: #fff;
+    display: flex;
+    border: 0 solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    border-radius: 24px;
+}
+  
+.search-area:hover {
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+  
+.search {
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+  
+.search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+}
+  
+.search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+  
+.input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+  
+.input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+}
+  
+.input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    width: 480px;
+    border: none;
+}
+
+.klavye{
+    height: 15px;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.mic{
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 13px;
+    right: 19px;
+    cursor: pointer;
+}
+
+.kamera{
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 13px;
+    right: 15px;
+    cursor: pointer;
+}
+/*Search Bar CSS End*/
+
+/*Buttons CSS Start*/
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    text-decoration:#5f6368 14px Arial;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+  
+.feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    text-decoration:#5f6368 14px Arial;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+/*Buttons CSS End*/
+
+/*Footer CSS Start*/
+.footer{
+    margin-top: 13%;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: #f0f2f5;
+}
+
+.footer1{
+    height: 50%;
+    color: #3c4043;
+    border-bottom: 1px solid #dadce0;
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+}
+
+.footer2{
+    height: 50%;
+    display: flex;
+    color: #3c4043;
+}
+
+.footer2-a{
+    width: 40%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.footer2-a li{
+    display: inline-block;
+    margin-left: 23px;
+}
+
+.footer2-a a{
+    text-decoration: none;
+    color: #3c4043;
+}
+
+.footer2-a a:hover{
+    text-decoration:underline
+}
+
+.footer2-b{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2-c{
+    width: 40%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.footer2-c li{
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.footer2-c a{
+    text-decoration: none;
+    color: #3c4043;
+}
+
+.footer2-c a:hover{
+    text-decoration:underline
+}
+/*Footer CSS End*/
